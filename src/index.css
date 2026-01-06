@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  color: #1f2933;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 24px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+/* Card */
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Form */
+form {
+  display: flex;
+  gap: 12px;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+button {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Expense list */
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  font-weight: 500;
+}
