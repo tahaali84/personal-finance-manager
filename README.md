@@ -14,7 +14,6 @@ Track income, expenses, savings, and monitor spending habits with an easy-to-use
 
 ## 🛠️ Tech Stack
 
-- React.js
 - Vite
 - JavaScript
 - CSS / Tailwind CSS
